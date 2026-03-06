@@ -1,5 +1,9 @@
 # Cat-Dog Classifier Notebooks
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+Licensed under the MIT License — see the `LICENSE` file for details.
+
 This repository contains a series of Jupyter notebooks demonstrating progressive techniques to build a Deep Learning image classifier for the Kaggle Dogs vs. Cats dataset. We start from a basic Convolutional Neural Network (CNN) and incrementally introduce advanced techniques to improve model generalization and performance.
 
 All notebooks solve a binary classification problem (predicting whether an image contains a cat or a dog) using Keras and TensorFlow. 
