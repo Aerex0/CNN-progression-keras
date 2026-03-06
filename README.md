@@ -119,3 +119,4 @@ Through these steps, the project clearly illustrates the trajectory of improving
 ## 🚀 Future Work
 - Implement Grad-CAM to visualize which parts of the image (cats/dogs) the CNN focuses on when making predictions.
 - Deploy the optimal VGG16/Xception model as a simple web app (e.g., Streamlit or Gradio) for users to upload and classify their own images.
+
