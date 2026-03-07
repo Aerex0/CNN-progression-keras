@@ -6,6 +6,7 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
 ![Task](https://img.shields.io/badge/Task-Binary%20Classification-brightgreen?style=for-the-badge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 This repository contains a series of Jupyter notebooks demonstrating progressive techniques to build a Deep Learning image classifier for the Kaggle Dogs vs. Cats dataset. We start from a basic Convolutional Neural Network (CNN) and incrementally introduce advanced techniques to improve model generalization and performance.
 
@@ -58,8 +59,8 @@ The project uses the [Kaggle Dogs vs. Cats Dataset](https://www.kaggle.com/datas
 **Training Curves**:
 
 <p float="left">
-  <img src="loss-accuracy/2-accuracy.png" alt="Training Accuracy" width="45%" />
-  <img src="loss-accuracy/2-loss.png" alt="Training Loss" width="44.1%" />
+  <img src="loss-accuracy/2-accuracy.png" alt="Training Accuracy" width="45.1%" />
+  <img src="loss-accuracy/2-loss.png" alt="Training Loss" width="44%" />
 </p>
 
 ---
@@ -124,6 +125,5 @@ Through these steps, the project clearly illustrates the trajectory of improving
 - Deploy the optimal VGG16/Xception model as a simple web app (e.g., Streamlit or Gradio) for users to upload and classify their own images.
 
 ## License 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Licensed under the MIT License — see the `LICENSE` file for details.
