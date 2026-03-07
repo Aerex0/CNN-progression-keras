@@ -1,5 +1,12 @@
 # Cat-Dog Classifier Notebooks
 
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-red?style=for-the-badge&logo=keras&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
+![Task](https://img.shields.io/badge/Task-Binary%20Classification-brightgreen?style=for-the-badge)
+
 This repository contains a series of Jupyter notebooks demonstrating progressive techniques to build a Deep Learning image classifier for the Kaggle Dogs vs. Cats dataset. We start from a basic Convolutional Neural Network (CNN) and incrementally introduce advanced techniques to improve model generalization and performance.
 
 All notebooks solve a binary classification problem (predicting whether an image contains a cat or a dog) using Keras and TensorFlow. 
@@ -71,7 +78,7 @@ The project uses the [Kaggle Dogs vs. Cats Dataset](https://www.kaggle.com/datas
 
 <p float="left">
   <img src="loss-accuracy/3-accuracy.png" alt="Training Accuracy" width="45%" />
-  <img src="loss-accuracy/3-loss.png" alt="Training Loss" width="44.1%" />
+  <img src="loss-accuracy/3-loss.png" alt="Training Loss" width="44.3%" />
 </p>
 
 ---
@@ -99,7 +106,7 @@ The project uses the [Kaggle Dogs vs. Cats Dataset](https://www.kaggle.com/datas
 
   <p float="left">
     <img src="loss-accuracy/4.2-accuracy.png" alt="VGG16 Accuracy" width="45%" />
-    <img src="loss-accuracy/4.2-loss.png" alt="VGG16 Loss" width="44.1%" />
+    <img src="loss-accuracy/4.2-loss.png" alt="VGG16 Loss" width="44.25%" />
   </p>
 
 - **Conclusion**: Transfer learning dramatically outperformed all custom-built networks. By utilizing features learned from massive datasets (like ImageNet), both Xception and VGG16 models achieved near-perfect validation accuracy (~98%) with rapid convergence and minimum tuning.
